@@ -2,6 +2,15 @@ body{
   background: red;
   font-size: 1.5rem;
   /* 1rem = 16px(ordinador) o 32px(móbil)*/
+  font-family: tahoma;
+}
+
+h1{
+  clear:both;
+}
+
+nav ul li:hover{
+  background-color:yellow;
 }
 
 
@@ -10,6 +19,26 @@ body{
   background: olive;
   color:white;
   }
+
+p:after{
+    content:"";
+    display: block;
+    width: 6.25rem;
+    height: 6.25rem;
+    background:url(../img/ico1024.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    nav ul li{
+      display: block;
+      background: red;
+      margin:0.1rem;
+      float: left;
+      padding:0.5rem;
+    }
+
+
 }
 
 
@@ -18,4 +47,23 @@ body{
     background: #dfffdf;
   }
 
+  p:after{
+      content:"";
+      display: block;
+      width: 6.25rem;
+      height: 6.25rem;
+      background:url(../img/ico0032.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+
+    nav ul li{
+      display: block;
+      background: green;
+      width: 8rem;
+      margin:0.1rem;
+      float: left;
+      padding:0.5rem;
+      float:none;
+      }
 }
