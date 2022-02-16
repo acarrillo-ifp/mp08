@@ -1,0 +1,33 @@
+
+div{
+  margin: 14px;
+  overflow: visible;
+  margin: 0;
+}
+
+.cap .peu{
+  width: 1200px;
+  height: 200px;
+  clear: both;
+  text-align: center;
+}
+
+.esq, .dre {
+  background-color: red;
+  float: left;
+  width: 200px;
+
+}
+
+
+.cos{
+  background-color: green;
+  width: 720px;
+  float: left;
+}
+
+.contenidor{
+  width: 1200px;
+  background-color: tomato;
+  margin:0 auto;
+}
