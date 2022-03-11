@@ -1,0 +1,156 @@
+body{
+
+  background: red;
+  font-size: 1.5rem;
+  /* 1rem = 16px(ordinador) o 32px(móbil)*/
+  font-family: tahoma;
+}
+
+input[type=checkbox]{
+  visibility: hidden;
+}
+
+h1{
+  clear:both;
+}
+
+nav ul li:hover{
+  background-color:yellow;
+}
+
+
+@media screen and (min-width:800px){
+body{
+  background: olive;
+  color:white;
+  }
+
+p:after{
+    content:"";
+    display: block;
+    width: 6.25rem;
+    height: 6.25rem;
+    background:url(../img/ico1024.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+    nav ul li{
+      display: block;
+      background: green;
+      margin:0.1rem 0;
+      padding:0.6rem 0;
+      float: left;
+      width: 6rem;
+    }
+
+    nav ul li ul{
+      display: none;
+      padding: 0;
+      margin:0;
+    }
+
+    nav ul li:hover> ul{
+      display: block;
+      position: relative;
+    }
+
+    nav ul:hover li ul li{
+        float: none;
+     }
+
+}
+
+@media screen and (max-width:414px){
+  body{
+    background: #dfffdf;
+  }
+
+  p:after{
+      content:"";
+      display: block;
+      width: 6.25rem;
+      height: 6.25rem;
+      background:url(../img/ico0032.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      }
+
+    nav ul li{
+      display: block;
+      background: green;
+      width: 10rem;
+      margin:0.1rem;
+      padding:0.5rem;
+      float:none;
+      position: relative;
+    }
+
+    nav ul li ul{
+      display: none;
+      padding: 0;
+      margin:0;
+    }
+
+    nav ul li:hover> ul{
+      position: absolute;
+      display: block;
+      position: relative;
+      top: 0;
+      left:11.1rem;
+    }
+
+    nav ul:hover li ul li{
+        float: none;
+    }
+
+    b{
+      margin-top: 0.3rem;
+      display: block;
+      width: 2rem;
+      height: 0.3rem;
+      background: black
+    }
+
+    #alternador{
+      width: 3rem;
+      height: 3rem;
+      background: transparent;
+      position: absolute;
+      top: 0.5rem;
+      left: 0.5rem;
+      border-radius: 0.5rem;
+    }
+
+    #alternador label{
+      width: 3rem;
+      height: 3rem;
+      background: transparent;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius:0.5rem;
+      transition: all .5 ease;
+      cursor: pointer;
+      opacity: 0;
+    }
+
+    .activitats{
+      position: absolute;
+      opacity: 1;
+      background: ;
+      left: -15rem;
+      transition: all .5s ease;
+    }
+
+    #alternador input[type=checkbox]:checked+label~.activitats{
+      opacity: 1;
+      left: 0;
+    }
+
+    #alternador input[type=checkbox]:checked+label{
+      opacity: 1;
+      left: 0;
+    }
+
+}
