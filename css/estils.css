@@ -1,0 +1,188 @@
+body{
+  background:#FDF0D7;
+  font-family: 'Paytone One', sans-serif;
+  background-image: url(https://mmbiz.qpic.cn/mmbiz_jpg/PwcPWg707V4dQqf4iaQBfuhYlXVAtCsZeIb98cxueFHYvWJ9c2zL571iasWtcewsUr5qicaNQPpib4QoSG6v6KibJNQ/640?wx_fmt=jpeg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: 0 37.875rem;
+}
+
+.titol{
+  margin: 0 auto;
+  width: 50.5rem;
+  height: 37.5rem;
+  background-image: url(https://i.pinimg.com/originals/23/d9/65/23d9657c9a29976a04fef12ff5cfceb8.gif);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+h1{
+  color: white;
+  position: relative;
+  margin-top: 0;
+  text-align: center;
+  font-family:"Paytone One";
+  font-size: 4em;
+  padding: 1.0em;
+}
+
+h4{
+  position: relative;
+  text-align: center;
+  font-family:helvetica;
+  color: #F3B439;
+  font-weight: 1000;
+  font-size: 1.2rem;
+  padding: 3rem;
+  margin-top: 12rem;
+}
+
+
+ li ul a li:hover{
+   -webkit-box-shadow: inset -6px 6px 50px 8px rgba(0,0,0,0.48);
+ box-shadow: inset -6px 6px 50px 8px rgba(0,0,0,0.48);
+ transform: scale(1.1);
+ }
+
+ .Horari{
+   background-image: url(https://static01.nyt.com/newsgraphics/2021/08/23/sneaker-bots/3c705d1df14f9848ed8dcb6e9215326fd6d4687d/360-mocha-600.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .Feedly{
+   background-image: url(https://images.complex.com/complex/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/airforce_m0suwe.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .FloatA{
+   background-image: url(https://static.sneakerjagers.com/news/nl/2020/02/Naamloos-181.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .FloatB{
+   background-image: url(https://media3.giphy.com/media/fQYxPwJ9JuXjclAogN/giphy.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .FloatC{
+   background-image: url(https://s10.gifyu.com/images/air-jordan-1-low-se-barcelona-cyber-teal.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .Vinyeta{
+   background-image: url(https://media4.giphy.com/media/TKL2hHGWiWoVFSGGXB/200.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .Escacs{
+   background-image: url(https://media0.giphy.com/media/WQCvGFxYCBqGUDtytA/giphy.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .Apps{
+   background-image: url(https://cdn.shopify.com/s/files/1/0562/3863/7217/products/nike-dunk-low-retro-white-black-2021_1280x.gif?v=1622297530);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .Retrat{
+   background-image: url(https://media3.giphy.com/media/69jF9dWrxSXMeIcvoG/giphy.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .Floreta{
+   background-image: url(https://lh3.googleusercontent.com/gIjBFqZhsiJ9mKuihyaVp8jRnPGyyMovvg-M1Gp46QMZ5zb-4Ei82ATAiZIrvurrZOz4giHwdNyYjWqDazDUH5clhxz0Ck1JQzuf=w600);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .Examen{
+   background-image: url(https://cdn.shopify.com/s/files/1/0562/3863/7217/products/supplythebest-air-jordan-1-low-fragment-design-x-travis-scott_1280x.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ .Responsive{
+   background-image: url(https://cdn.shopify.com/s/files/1/0562/3863/7217/products/supplythebest-nike-dunk-low-coast_1024x1024@2x.gif);
+   background-repeat: no-repeat;
+   background-size: 100%;
+ }
+
+ul{
+  position: relative;
+  width: 60rem;
+  height: 100%;
+  margin: 0 auto;
+
+}
+
+ul li ul{
+  margin-left: 6rem;
+  overflow: hidden;
+  width: 31.8rem;
+  height: 60rem;
+  margin: 1rem 0;
+  padding: 1.6rem;
+}
+
+ul li{
+  list-style: none;
+}
+
+
+a li{
+  display: inline-block;
+  font-size: 16px;
+  height:10rem;
+  width:10rem;
+  margin:5rem 0.3rem 0 0.3rem;
+  background-color:white ;
+  text-align: center;
+  float: left;
+  list-style: none;
+}
+
+h2{
+  color: black;
+  margin: 7.5rem 0 0 0;
+}
+
+.UF1, .UF2, .UF3, .UF4 {
+  font-size: 30px;
+  margin: 0 auto;
+  width: 35rem;
+  text-align: center;
+  background: white;
+  padding: 1.5rem 0;
+  border-radius: 1.5rem;
+  clear: both;
+}
+
+.UF1 {
+  margin-top: 150px;
+}
+
+.UF2{
+  margin-top: 20px;
+}
+
+.UF3{
+  margin-top: 20px;
+}
+
+.UF4{
+  margin-top: 20px;
+}
+
+.UF1:hover, .UF2:hover, .UF3:hover, .UF4:hover{
+  background: #F3B439;
+}
