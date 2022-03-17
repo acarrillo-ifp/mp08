@@ -1,39 +1,103 @@
 body{
   background-color:#222;
   font-family: helvetica, sans-serif;
+  color: white;
 }
 
-h2{
-color:white;
-clear: both;
+.fitxa{
+  width:175px;
+  height: 260px;
+  margin: 10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  float: left;
+}
+
+.fitxa:hover{
+  opacity: 0.5;
+}
+
+img{
+  border-radius: 5px 5px 5px 5px;
+}
+
+ul{
+   padding: 10px;
+   display: inline-block;
+   height: 30px;
+ }
+
+li{
+  list-style: none;
+  display: inline-block;
+  left: 100px;
+}
+
+li:hover{
+  color: blue;
+  padding: 5px;
+}
+
+a:visited{
+  color: white;
+}
+
+a:link{
+  background: transparent;
+}
+
+h3{
+  font-size: 14px;
+  margin: 0;
 }
 
 h4{
-color:white;
-float: none;
+  font-size: 12px;
+  width: 50%;
+  float: left;
+  margin: 0;
 }
 
-div{
-    width: 175px;
-    height: 260px;
-    background-color: #FFF;
-    border-radius: 5px;
-    margin: 10px;
-    float: left;
+h5{
+  font-size: 11px;
+  width: 50%;
+  float: left;
+  margin: 0;
+  text-align: right;
 }
 
-.Koyaanisqatsi{
+.interessants{
+  margin-top: 60px;
   clear: both;
 }
 
-.ArtCopy{
-clear: both;
+.docusvistos{
+  clear: both;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
+.pendents{
+  clear: both;
+}
 
+.pelisvistes{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  clear: both;
+}
 
-.negre{
-  background-color:#222;
-  height: 40px;
+.seguint{
+  clear: both;
+}
 
+.barra{
+  height: 50px;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
