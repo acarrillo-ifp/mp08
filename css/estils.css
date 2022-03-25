@@ -1,10 +1,10 @@
 body{
-  background:#FDF0D7;
+  background:#491C1C;
   font-family: 'Paytone One', sans-serif;
-  background-image: url(https://mmbiz.qpic.cn/mmbiz_jpg/PwcPWg707V4dQqf4iaQBfuhYlXVAtCsZeIb98cxueFHYvWJ9c2zL571iasWtcewsUr5qicaNQPpib4QoSG6v6KibJNQ/640?wx_fmt=jpeg);
+  background-image: url(../img/fons.png);
   background-repeat: no-repeat;
   background-size:cover;
-  background-position: 0 37.875rem;
+  background-position: 0 38rem;
 }
 
 .titol{
@@ -88,7 +88,7 @@ h4{
  }
 
  .Apps{
-   background-image: url(https://cdn.shopify.com/s/files/1/0562/3863/7217/products/nike-dunk-low-retro-white-black-2021_1280x.gif?v=1622297530);
+   background-image: url(https://i.giphy.com/media/cs7y93aVW1MiruLBs7/giphy.gif);
    background-repeat: no-repeat;
    background-size: 100%;
  }
@@ -106,13 +106,13 @@ h4{
  }
 
  .Examen{
-   background-image: url(https://cdn.shopify.com/s/files/1/0562/3863/7217/products/supplythebest-air-jordan-1-low-fragment-design-x-travis-scott_1280x.gif);
+   background-image: url(https://media3.giphy.com/media/2vjPycHuVF1pYfRZCA/giphy.gif?cid=790b76115caf102f746e685277ca8b65);
    background-repeat: no-repeat;
    background-size: 100%;
  }
 
  .Responsive{
-   background-image: url(https://cdn.shopify.com/s/files/1/0562/3863/7217/products/supplythebest-nike-dunk-low-coast_1024x1024@2x.gif);
+   background-image: url(https://images.complex.com/complex/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_face,q_auto,w_1280/Jordan-360s_-5_bexxki.gif);
    background-repeat: no-repeat;
    background-size: 100%;
  }
